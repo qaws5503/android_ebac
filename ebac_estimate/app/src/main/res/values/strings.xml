@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">酒精計算機</string>
+    <string name="title_activity_settings">Settings</string>
+    
+    <!-- google ads -->
+    <string name="app_ID">ca-app-pub-2249102710964710~2437039695</string>
+    <string name="ads_ID">ca-app-pub-2249102710964710/3173560384</string>
+    <!-- Preference Titles -->
+    <string name="body_header">身體資訊</string>
+
+    <string name="weight">體重</string>
+    <string name="gender">性別</string>
+
+    <!-- menu option -->
+    <string name="disclaimer">此程式得出之酒精濃度皆為估計值，不具任何法律意義。\n※喝酒不開車，開車不喝酒。</string>
+    <string name="about_me">程式如有問題或建議歡迎使用email聯繫，同時也歡迎合作夥伴一同加入，
+        email:qaws5503@gmail.com</string>
+    <string name="license">Icon made by Freepik and surang from www.flaticon.com\nDashbord made by Habo Shen from GitHub</string>
+
+    <!-- ebac introduction -->
+    <string name="ebac_introduction">血液酒精濃度是用於法律或醫學目的度量酒精中毒的指標。通常的度量單位為：單位體積血液中的酒精質量或體積的百分比。例如：BAC 0.10%意味著每100毫升血液中含0.10克酒精。</string>
+    <string name="ebac_translate">呼氣酒精濃度和血液濃度約呈現1:2100的比值，因此可以透過血液濃度除以0.2得到呼氣酒精濃度的估算值。</string>
+    <string name="law_introduction">依據台灣現行的酒駕法律，血液酒精濃度超過0.03%即屬於酒駕，超過0.05%就屬公共危險罪。</string>
+
+    <!-- alcohol  -->
+    <string name="action_000">●個體平均感覺正常</string>
+    <string name="action_030">●溫和欣快感\n●鬆弛\n●快樂\n●多話\n●抑制力下降</string>
+    <string name="action_060">●感覺變得麻木\n●去抑制\n●外向</string>
+    <string name="action_100">●過表達\n●情緒波動\n●憤怒或悲傷\n●喧鬧</string>
+    <string name="action_200">●目光呆滯\n●失去理解力\n●感知受損\n●可能陷入昏迷</string>
+    <string name="action_300">●中樞神經系統抑制\n●不省人事\n●可能致死</string>
+
+    <string name="damage_000"></string>
+    <string name="damage_030">●專注力</string>
+    <string name="damage_060">●推理\n●深度感知\n●周邊視覺\n●眩光視覺恢復</string>
+    <string name="damage_100">●條件反射\n●反應時間\n●粗略運動控制\n●蹣跚\n●口齒不清</string>
+    <string name="damage_200">●嚴重的運動能力受損\n●失去意識\n●記憶空白</string>
+    <string name="damage_300">●膀胱功能\n●肺換氣不足\n●平衡失調</string>
+</resources>

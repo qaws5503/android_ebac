@@ -1,0 +1,39 @@
+<resources>
+    <string-array name="gender">
+        <item name="1">男生</item>
+        <item name="2">女生</item>
+    </string-array>
+
+    <string-array name="gender_values">
+        <item name="1">0.58</item>
+        <item name="2">0.49</item>
+    </string-array>
+
+    <string-array name="common_drinks">
+        <item>啤酒</item>
+        <item>5%</item>
+        <item>330ml</item>
+        <item>beer</item>
+        <item>熱炒店啤酒杯7分滿約 100ml</item>
+        <item>紅酒</item>
+        <item>12%</item>
+        <item>80ml</item>
+        <item>wine</item>
+        <item>正常紅酒杯1/3杯約為 80ml</item>
+        <item>威士忌</item>
+        <item>40%</item>
+        <item>80ml</item>
+        <item>whiskey</item>
+        <item>正常威士忌杯半杯約為 80ml</item>
+        <item>shot</item>
+        <item>40%</item>
+        <item>30ml</item>
+        <item>shot</item>
+        <item>no</item>
+        <item>其他</item>
+        <item>%</item>
+        <item>ml</item>
+        <item> </item>
+        <item>no</item>
+    </string-array>
+</resources>

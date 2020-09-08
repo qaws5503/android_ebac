@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="dp">
+
+        <com.ayst.dbv.DashboardView
+            android:id="@+id/dashboardview_1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:dbv_colorPadding="10dp"
+            app:dbv_colorWidth="20dp"
+            app:dbv_firstColor="@color/success_color"
+            app:dbv_firstRange="30"
+            app:dbv_headerText="血液酒精濃度"
+            app:dbv_headerTextColor="@color/black"
+            app:dbv_lineWidth="2dp"
+            app:dbv_longScaleLength="15dp"
+            app:dbv_max="100"
+            app:dbv_maxPointerColor="@color/white_30"
+            app:dbv_min="0"
+            app:dbv_minPointerColor="@color/white_30"
+            app:dbv_pointerColor="@color/black"
+            app:dbv_portion="10"
+            app:dbv_scaleColor="@color/grey"
+            app:dbv_scaleTextSize="0sp"
+            app:dbv_secondColor="@color/warning_color"
+            app:dbv_secondRange="20"
+            app:dbv_section="1"
+            app:dbv_shortScaleLength="10dp"
+            app:dbv_showPointerRange="false"
+            app:dbv_showValueText="false"
+            app:dbv_startAngle="180"
+            app:dbv_sweepAngle="180"
+            app:dbv_thirdColor="@color/error_color"
+            app:dbv_value="0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="血液酒精濃度："
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView_EBAC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.000 %"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_weight="0"
+                android:layout_marginEnd="5dp"
+                android:onClick="Introduction"
+                app:srcCompat="@android:drawable/ic_menu_info_details" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView_warning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="警告!您已達酒醉駕車標準"
+            android:textColor="#FF0000"
+            android:textSize="18sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textView_soberTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_AddDrink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="AddDrinks"
+                android:text="新增酒杯" />
+
+            <Button
+                android:id="@+id/button_ViewDrink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="ViewDrinks"
+                android:text="過往酒杯" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="@string/ads_ID"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

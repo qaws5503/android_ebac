@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "973429391975",
+    "firebase_url": "https://ebac-933c7.firebaseio.com",
+    "project_id": "ebac-933c7",
+    "storage_bucket": "ebac-933c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973429391975:android:d31029139a13dd9da00ac2",
+        "android_client_info": {
+          "package_name": "com.jimmy.ebac_estimate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973429391975-o50cqqamlbf5jsf98pd4dodh6eubv407.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jimmy.ebac_estimate",
+            "certificate_hash": "f9b880de4f55ec51b49f6addec233ae2001cb4d8"
+          }
+        },
+        {
+          "client_id": "973429391975-u085upfek0s0r1jsubm6lu83a7i8e4tc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjxJHN-rA_uLe4tXl-HbwfW_Cqtgrwqek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973429391975-u085upfek0s0r1jsubm6lu83a7i8e4tc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-2249102710964710~2437039695"
+    }
+  ],
+  "configuration_version": "1"
+}
