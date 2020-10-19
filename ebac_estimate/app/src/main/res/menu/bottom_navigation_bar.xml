@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="主畫面"
+        android:id="@+id/nav1"
+        android:icon="@drawable/dashboard"
+        ></item>
+
+<item android:title="總覽"
+        android:id="@+id/nav2"
+        android:icon="@drawable/list"
+        ></item>
+
+</menu>
